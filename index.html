@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Join Our Club</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to TheCodingClub! 🚀</h1>
+    <p>Fill in the form below to become a member.</p>
+
+    <form id="signup-form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" />
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="At least 8 characters" />
+
+      <label for="language">Favorite Programming Language:</label>
+      <input type="text" id="language" name="language" />
+
+      <button type="submit">Join the Club</button>
+    </form>
+
+    <button id="surprise-btn">🎁 Surprise Me!</button>
+
+    <div id="message"></div>
+
+    <hr />
+
+    <section class="gallery">
+      <h2>Club Moments 📸</h2>
+      <div class="gallery-images">
+        <img src="https://placehold.co/300x200?text=No+Image" alt="Event 1" />
+        <img src="https://placehold.co/300x200?text=No+Image" alt="Event 2" />
+        <img src="https://placehold.co/300x200?text=No+Image" alt="Event 3" />
+      </div>
+    </section>
+
+    <hr />
+
+    <section class="faq-section">
+      <h2>FAQs ❓</h2>
+      <div class="faq">
+        <div class="faq-item">
+          <button class="faq-header">What is TheCodingClub?</button>
+          <div class="faq-content">We are a group of learners and coders who build fun projects and grow together.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-header">Who can join?</button>
+          <div class="faq-content">Anyone interested in tech and programming—no experience required!</div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
